@@ -1,3 +1,1 @@
-# angular-g1wsp8
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-g1wsp8)
+Angular the-complete-guide-to-angular-2 udemy course project
