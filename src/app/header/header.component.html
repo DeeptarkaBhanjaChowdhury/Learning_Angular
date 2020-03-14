@@ -4,26 +4,23 @@
 			<a href="#" class="navbar-brand">Recipe Book</a>
 		</div>
 
-		<button class="navbar-toggler" type="button"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-      (click)="collapsed = !collapsed">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+		<button class="navbar-toggler" type="button" (click)="collapsed = !collapsed">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-		<div [class.collapse]="collapsed" (window:resize)="collapsed = true" class="navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
+		<div [class.collapse]="collapsed" (window:resize)="collapsed = true" class="navbar-collapse">
+			<ul class="navbar-nav w-100">
 				<li class="nav-item">
 					<a href="#" class="nav-link">Recipes</a>
 				</li>
 				<li class="nav-item">
 					<a href="#" class="nav-link">Shopping List</a>
 				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<li class="nav-item dropdown ml-auto">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
 						Dropdown
 					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#">Save Data</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="#">Fetch Data</a>
